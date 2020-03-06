@@ -3,9 +3,6 @@
 [![Build Status](https://travis-ci.com/OE-FET/keithley2600.svg?branch=master)](https://travis-ci.com/OE-FET/keithley2600)
 [![Documentation Status](https://readthedocs.org/projects/keithley2600/badge/?version=latest)](https://keithley2600.readthedocs.io/en/latest/?badge=latest)
 
-**Warning:** From version 1.3.2, keithley2600 only support Python 3.6 and higher. Install version 1.3.1 if
-you require support for Python 2.7.
-
 # keithley2600
 A full Python driver for the Keithley 2600 series of source measurement units. An
 accompanying GUI is provided by the sister project [keithleygui](https://github.com/OE-FET/keithleygui).
