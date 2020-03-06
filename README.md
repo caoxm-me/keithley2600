@@ -5,16 +5,18 @@
 
 # keithley2600
 A full Python driver for the Keithley 2600 series of source measurement units. An
-accompanying GUI is provided by the sister project [keithleygui](https://github.com/OE-FET/keithleygui).
+accompanying GUI is provided by the sister project
+[keithleygui](https://github.com/OE-FET/keithleygui). Documentation is available at
+[https://keithley2600.readthedocs.io](https://keithley2600.readthedocs.io).
 
 ## About
-keithley2600 provides access to base functions and higher level functions such as IV
+`keithley2600` provides access to base functions and higher level functions such as IV
 measurements, transfer and output curves, etc. Base commands replicate the functionality
 and syntax from the Keithley's internal TSP functions, which have a syntax similar to
 Python.
 
-**Warning**: There are currently only heuristic checks for allowed commands and arguments by the driver
-itself. See the [Keithley 2600 reference manual](https://www.tek.com/keithley-source-measure-units/smu-2600b-series-sourcemeter-manual-8)
+**Warning**: There are currently only heuristic checks for allowed commands and arguments
+by the driver itself. See the [Keithley 2600 reference manual](https://www.tek.com/keithley-source-measure-units/smu-2600b-series-sourcemeter-manual-8)
 for all available commands. To enable command checking, set the keyword argument argument
 `raise_keithley_errors = True` in the constructor. When `raise_keithley_errors` is `True`,
 all invalid commands will be raised as Python errors. This is done by reading the
